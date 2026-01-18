@@ -353,7 +353,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
+**Asiman Ismayilova**
 - GitHub: [@hermione06](https://github.com/hermione06)
 
 ## 🙏 Acknowledgments
@@ -362,7 +362,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - CMS and ATLAS trigger groups for documentation
 - FastML community for quantization techniques
 - Scikit-HEP for Python tools
-
----
-
-**Last Updated:** September 2025
