@@ -1,7 +1,7 @@
 # Fast Trigger ML Simulation for Muon Detection
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
+[![TensorFlow 2.13](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project investigates ML-based Level-1 trigger strategies for muon detection in the HL-LHC environment, focusing on latency, efficiency, and FPGA deployability. A lightweight neural network is trained on simulated muon events and optimized via quantization to meet real-time trigger constraints.
@@ -188,7 +188,6 @@ Transverse momentum (pT) and pseudorapidity (η) are the most discriminative fea
 ### Performance Optimization
 
 ```python
-# Example: Model quantization for FPGA deployment
 import tensorflow as tf
 
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
@@ -252,7 +251,7 @@ from src.models.base import BaseModel
 class CustomTriggerModel(BaseModel):
     def __init__(self, config):
         super().__init__(config)
-        # Your model initialization
+        # Model initialization
     
     def train(self, X_train, y_train):
         # Training logic
